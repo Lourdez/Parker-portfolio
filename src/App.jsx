@@ -1,6 +1,6 @@
 import './App.css'
 import Navbar from './Components/Navbar'
-import Intro from './Components/Intro'
+import Profile from './Components/Profile'
 
 function App() {
    
@@ -8,8 +8,7 @@ function App() {
   return (
     <div className='App'>
     <Navbar/> 
-    <br></br>
-    <Intro/>
+     <Profile/>
     </div>
   
   )
