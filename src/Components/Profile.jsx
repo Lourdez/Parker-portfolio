@@ -1,7 +1,8 @@
 import React from "react";
 import "../Components/style/profile.css";
-// G:\JavaScript\React\Portfolio\Parker-Portfolio\src\Components\style\profile.css
-import profileImage from "../assets/myimg.png"; // Replace with your actual image path
+import profileImage from "../assets/myimg.png";  
+import hire from "../assets/hireme.png"
+import { Link } from 'react-scroll'
 
 const Profile = () => {
     return (
@@ -14,9 +15,10 @@ const Profile = () => {
                     </h1>
                     <h2>FullStack Developer</h2>
                     <p>
-                    Full Stack Developer skilled in Spring Boot, React,AWS and DevOps dedicated to building seamless, scalable applications across the tech stack.
+                        Full Stack Developer skilled in Spring Boot, React,AWS and DevOps dedicated to building seamless, scalable applications across the tech stack.
                     </p>
-                    <button className="hire-button">Hire me</button>
+                    <Link><button className="hire-button"><img src={hire} alt="" className="hireimg" />
+                        Hire me</button></Link>
                 </div>
                 <div className="image-container">
                     <img src={profileImage} alt="Profile" className="profile-image" />

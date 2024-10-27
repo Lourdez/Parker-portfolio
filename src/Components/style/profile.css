@@ -32,6 +32,8 @@
 
 .text-content {
     max-width: 600px;
+    margin-top: -3rem;
+    transition: width 2s;
 }
 
 h2 {
@@ -57,6 +59,8 @@ p {
 }
 
 .hire-button {
+    display: flex ;
+    justify-content: space-between;
     background-color: #fff;
     color: #000;
     padding: 10px 25px;
@@ -65,6 +69,10 @@ p {
     font-weight: bold;
     cursor: pointer;
     transition: background-color 0.3s ease;
+}
+
+.hireimg{
+    padding-right: 10px;
 }
 
 .hire-button:hover {
