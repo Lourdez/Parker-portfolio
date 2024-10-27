@@ -1,16 +1,17 @@
-import { useState } from 'react'
-import reactLogo from './assets/logo1.png'
- 
 import './App.css'
 import Navbar from './Components/Navbar'
+import Intro from './Components/Intro'
 
 function App() {
    
 
   return (
     <div className='App'>
-    <Navbar/>
+    <Navbar/> 
+    <br></br>
+    <Intro/>
     </div>
+  
   )
 }
 
