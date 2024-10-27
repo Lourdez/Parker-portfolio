@@ -18,36 +18,39 @@
   max-width: 10%;
   object-fit: cover;
   height: 60px;
-  
-}
-.desktopmenuitems:hover{
-  color: yellow;
-  padding-bottom:0.5trem;
-  border-bottom: 3px solid yellow ;
-}
-.desktopmenuitems{
-margin: 1rem;
-cursor: pointer;
+
 }
 
-.desktopmenubutton{
-   /* border-radius: 11px; */
-   max-width: 150px;
-   background: white;
-   color: black;
-   display: flex;
-   border: none;
-   align-items: center;
-   padding: 0 1rem;
-   border-radius: 2rem;
-    
+.desktopmenuitems:hover {
+  color: yellow;
+  padding-bottom: 0.5trem;
+  border-bottom: 3px solid yellow;
 }
-.desktopmenuimg{
+
+.desktopmenuitems {
+  margin: 1rem;
+  cursor: pointer;
+}
+
+.desktopmenubutton {
+  max-width: 150px;
+  background: white;
+  color: black;
+  display: flex;
+  border: none;
+  align-items: center;
+  padding: 0 1rem;
+  border-radius: 2rem;
+  font-size: 12px;
+
+}
+
+.desktopmenuimg {
   width: 20%;
   object-fit: cover;
   height: 1rem;
   width: 1rem;
   margin: 1rem;
-  
+
 
 }
